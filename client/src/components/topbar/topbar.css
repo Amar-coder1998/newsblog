@@ -10,6 +10,18 @@
   z-index: 999;
 }
 
+.logo{
+  margin:5px;
+  padding-top:25px;
+  position:relative;
+
+}
+img{
+width:100px;
+height:100px;
+object-fit: contain;
+}
+
 .topLeft,
 .topRight {
   flex: 3;
@@ -20,6 +32,8 @@
 
 .topCenter {
   flex: 6;
+  align-items: center;
+  justify-content: center;
 }
 
 .topIcon {
@@ -27,6 +41,7 @@
   margin-right: 10px;
   color: #444;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .topImg {
@@ -50,6 +65,7 @@
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .topSearchIcon {

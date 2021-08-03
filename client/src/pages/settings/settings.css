@@ -21,13 +21,14 @@
 
 .settingsDeleteTitle {
   color: red;
-  font-size: 12px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .settingsForm {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .settingsPP {
@@ -59,6 +60,7 @@
 .settingsForm > label {
   font-size: 20px;
   margin-top: 20px;
+
 }
 
 .settingsForm > input {
@@ -67,6 +69,7 @@
   height: 30px;
   border: none;
   border-bottom: 1px solid lightgray;
+  width: 300px;
 }
 
 .settingsSubmit{
